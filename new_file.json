@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "name": "Shibansh Sahoo ",
+      "email": "shibansh.w@gmail.com",
+      "price": "55",
+      "materials": "",
+      "paid": "",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
