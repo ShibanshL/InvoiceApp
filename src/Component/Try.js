@@ -24,53 +24,10 @@ export default class Try extends Component {
 
     }
     
-    // async componentDidMount(){
-    //     const url='/posts'
-    //     const res= await fetch(url)
-    //     const data= await res.json()
-       
-    
-    //     console.log("he",data)
-    //     console.log("state",this.state.allData)
-    // }
     handleChange(e){
             this.setState({
                 [e.target.name]:e.target.value
             })
-    }
-    // valid(e){ 
-    //     let a=[]
-    //     if(this.state.name>=3){
-    //         a.state.name='name is required'
-    //         return(
-    //             <p>no</p>
-    //         )
-    //     }
-    //     // else null
-    //     return a
-    // }
-    valid(){
-        if(this.state.name.length<=3 && this.state.name.length==0){
-            return(
-                alert("Name is too short")
-            )
-        }
-        // else if(!this.state.email.includes("@")){
-        //     return(
-        //         alert("Invalid Email")
-        //     )
-        // }
-        // // const a=this.state.price
-        // else if(!Number(this.state.price)){
-        //     return(
-        //         alert("Invalid input, enter number")
-        //     )
-        // }
-        else{
-            // this.handlePost()
-        }
-        
-        // else if()
     }
 
     async handlePost(e){
