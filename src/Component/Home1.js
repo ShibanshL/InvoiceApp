@@ -22,19 +22,7 @@ export default class Home1 extends Component {
             data:item
         })
     }
-    // daa(){
-    //     if(this.state.id===true){
-    //         // return(
-    //         //     <>
-    //             {this.props.history.push({
-    //                 pathname: '/edit',
-    //                 state:{email:e.id}
-    //             })}
-    //             <Edit nid={this.state.nid} />
-    //         //     </>
-    //         // )
-    //     }
-    // }
+    
     render() {
         return (
             <div className="cont">
@@ -61,12 +49,7 @@ export default class Home1 extends Component {
                                         method:'DELETE'
                                     })
                                 }}>Delete</button>
-                                {/* <button className="ed" onClick={()=>{
-                                    this.props.history.push({
-                                        pathname: '/',
-                                        data:{...e.value}
-                                    })
-                                }}>Edit</button> */}
+                               
                                 <button className="ed" onClick={()=>{
                                     this.setState({id:true})
                                     this.setState({nid:e.id})
